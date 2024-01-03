@@ -1,0 +1,15 @@
+
+
+h1{
+    
+    text-align: center;
+}
+
+
+ol,li{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 30px;
+    background-color: purple;
+}
