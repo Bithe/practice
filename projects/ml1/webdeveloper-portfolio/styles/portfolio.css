@@ -1,0 +1,278 @@
+/* nav css */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"), url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
+}
+.text-orange-color {
+  color: #fd6e0a;
+}
+
+/* all button design */
+.btn-primary {
+  background-color: #fd6e0a;
+  /* width: 150px;
+  height: 64px; */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+.nav-tittle {
+  color: #181818;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Banner starts */
+
+.banner {
+  padding: 30px 30px 0px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+.banner-greeting {
+  color: var(--Dark-02, #474747);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.banner-tittle {
+  color: var(--Dark-01, #181818);
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-decription {
+  margin-bottom: 30px;
+  color: var(--Dark-03, #757575);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.profile-pic {
+  width: 550px;
+}
+
+/* header ends */
+
+/* main starts */
+
+main section {
+  margin-top: 130px;
+}
+
+/* about starts */
+.primary-pink-color {
+  background-color: #fff8f3;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  margin: 130px 0px;
+  padding: 131px;
+}
+
+.section-tittle {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.section-description {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-info-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.info-tittle {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.info-description {
+  color: var(--Dark-02, #474747);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* about ends */
+
+/* what i do starts */
+
+#do-description {
+  padding: 30px 220px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+  padding: 30px;
+}
+
+.skill-tittle {
+  color: var(--Dark-01, #181818);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.skill-description {
+  color: var(--Dark-03, #757575);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* what i do ENDS */
+
+/* resume starts */
+
+.resume-container {
+  display: flex;
+  gap: 71px;
+}
+
+.resume-column-tittle {
+  color: var(--Dark-02, #474747);
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.resume-info-tittle {
+  color: var(--Dark-02, #474747);
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.resume-info-subtittle {
+  color: var(--Dark-03, #757575);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.resume-info-description {
+  color: var(--Dark-03, #757575);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.resume-container hr{
+    border-color: #6a247d;
+    
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* resume ENDS */
+
+
+/* footer starts */
+
+footer{
+  display: flex;
+  gap: 117px;
+  padding: 130px 200px;
+  margin-top: 30px;
+}
+
+.social-links>a{
+  margin-right: 24px;
+}
+
+.footer-column{
+  width: 100%;
+}
+.footer-column > p{
+  
+  text-align: justify;
+}
+
+.form-message input[type="text"], input[type="email"], textarea{
+  display: block;
+  margin-bottom: 24px;
+  border-radius: 5px;
+background: var(--White-Color, #FFF);
+padding: 18px 60px;
+border: none;
+width: 100%;
+}
