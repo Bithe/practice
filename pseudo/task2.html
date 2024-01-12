@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .row {
+        height: 50vh;
+        border: 3px solid;
+        padding: 10px;
+      }
+
+      .column {
+        border: 3px solid green;
+        height: 50%;
+        padding: 50px;
+      }
+
+      .row-in-column {
+        border: 2px solid red;
+        margin: 2px;
+        /* height: 180px; */
+        width: 50%;
+      }
+
+      .show-column {
+        display: flex;
+      }
+
+      #one {
+        background-color: pink;
+      }
+      #two {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row" id="one">
+        <p>1</p>
+      </div>
+
+      <div class="row">
+
+        <div class="column" id="two">
+          <p>2</p>
+        </div>
+
+        <div class="column show-column">
+
+          <div class="row-in-column">
+            <p>3</p>
+          </div>
+          <div class="row-in-column">
+            <p>4</p>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>

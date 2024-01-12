@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        border: 2px solid;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
+      .img-container{
+        display: flex;
+      }
+
+      .img-container div{
+        width: 50%;
+      }
+
+      .img-container img{
+        width: 100%;
+      }
+
+
+      /*  */
+
+      @media screen and (max-width:576px) {
+
+        .img-container{
+            flex-direction: column-reverse;
+        }
+        .img-container div{
+            width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h3>Responsive design</h3>
+      <ol>
+        <li>kjcdkjdsc</li>
+        <li>kjcdkjdsc</li>
+        <li>kjcdkjdsc</li>
+        <li>kjcdkjdsc</li>
+      </ol>
+    </header>
+
+    <main>
+      <div class="img-container">
+        <div><img src="images/food.jpg" alt="" /></div>
+        <div><img src="images/pum.JPG" alt="" /></div>
+      </div>
+    </main>
+  </body>
+</html>
